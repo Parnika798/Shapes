@@ -18,7 +18,7 @@ Organized into multiple Java files for better modularity.
 
 Methods and Functions - 
 
-1️⃣ Abstract Class - Shape
+1️. Abstract Class - Shape
 
 The Shape class provides a base structure for all shapes.
 
@@ -30,7 +30,7 @@ calculateArea() → Abstract method for area calculation (Implemented in subclas
 
 calculatePerimeter() → Abstract method for perimeter calculation (Implemented in subclasses).
 
-2️⃣ Interface - Volume
+2️. Interface - Volume
 
 The Volume interface is used for 3D shapes that have volume.
 
@@ -38,7 +38,7 @@ Methods:
 
 calculateVolume() → Abstract method (Implemented in Sphere, Cylinder, and Pyramid).
 
-3️⃣ Concrete Shape Classes
+3️. Concrete Shape Classes
 
 🔹 Circle (Circle.java)
 
@@ -118,11 +118,13 @@ calculatePerimeter() → Returns 4 * base length.
 
 calculateVolume() → Returns (1/3) * Base Area * Height.
 
-4️⃣ Main Class (Main.java)
+4️. Main Class (Main.java)
 
 The menu-driven program that interacts with users and performs operations based on user input.
 
 Methods:
 displayMenu() → Displays available shape options.
+
 getShapeInput() → Takes user input for shape selection.
+
 processShape() → Calls the respective shape’s methods and displays results.
